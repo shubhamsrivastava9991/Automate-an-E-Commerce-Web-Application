@@ -80,7 +80,7 @@ public class AutomationFlipkart {
 	  @BeforeMethod
 	  public void beforeMethod() {
 		// set path of Chromedriver executable
-	      System.setProperty("webdriver.chrome.driver", "F:\\Mphasis\\chromedriver.exe");
+	      System.setProperty("webdriver.chrome.driver", "F:\\workspace\\chromedriver.exe");
 	     
 	      // initialize new WebDriver session
 	      driver = new ChromeDriver();
